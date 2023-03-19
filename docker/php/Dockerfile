@@ -10,7 +10,7 @@ RUN apt install -y \
 	zip \
 	git
 
-RUN  docker-php-ext-configure intl \
+RUN docker-php-ext-configure intl \
 	&& docker-php-ext-install intl \
 	&& docker-php-ext-install zip
 
