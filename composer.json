@@ -6,9 +6,12 @@
         }
     },
     "require": {
-        "laravel/pint": "^1.6",
         "vlucas/phpdotenv": "^5.5"
     },
     "config": {
+    },
+    "require-dev": {
+        "laravel/pint": "^1.25",
+        "phpunit/phpunit": "^12.4"
     }
 }
